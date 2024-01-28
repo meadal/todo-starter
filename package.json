@@ -1,0 +1,21 @@
+{
+  "name": "todo-starter",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./src/index.html",
+  "scripts": {
+    "start": "npx parcel ./src/index.html",
+    "start:server": "npx json-server --watch db.json --port 3003",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^1.0.0-alpha.23",
+    "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.2"
+  }
+}
